@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[The application url is :- http://rally-userevent-dev.azurewebsites.net/#!/create/search]]>
+    </line>
+    <line>
+      <![CDATA[The test browser is :- chrome]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP01_CREATESEARCHRIDE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[ACTIONS]: Able to click on the Create Own Destination Link.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_SELECTROUTE *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the text using action class. Linkedin]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the text using action class.  ]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the source information. Linkedin]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[ACTION]: Able to click add rally point link.]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the new source point. Test]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the text using action class. Facebook]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the text using action class.  ]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to enter the destination information. Facebook]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[ACTION]: Able to click on the next add time button.]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[***** STARTING TEST STEP:- TESTSTEP03_TRIPTIMING *****]]>
+    </line>
+    <line>
+      <![CDATA[ ]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the value from outbound depart/arrive dropdown. Depart On]]>
+    </line>
+    <line>
+      <![CDATA[[ACTION]: Able to click on outbound date field.]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the year. 2019]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the month. May]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the date. 31]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the hour. 10]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the minute. 30]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the Period. AM]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the value from return depart/arrive dropdown. Depart On]]>
+    </line>
+    <line>
+      <![CDATA[[ACTION]: Able to click on return date field.]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the year. 2019]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the month. May]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the date. 31]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the hour. 10]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the minute. 45]]>
+    </line>
+    <line>
+      <![CDATA[[INFO]: Able to select the Period. PM]]>
+    </line>
+    <line>
+      <![CDATA[[Action]: clicked on element given]]>
+    </line>
+    <line>
+      <![CDATA[[ACTION]: Able to click on the add contact info.]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="68248" started-at="2019-05-31T07:15:08Z" finished-at="2019-05-31T07:16:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="68248" started-at="2019-05-31T07:15:08Z" finished-at="2019-05-31T07:16:16Z">
+      <class name="com.rally.automation.tests.RallyBus_TC01_CreateOwnRide">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="beforeMethod" is-config="true" duration-ms="6766" started-at="2019-05-31T12:45:08Z" finished-at="2019-05-31T12:45:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+            <line>
+              <![CDATA[The application url is :- http://rally-userevent-dev.azurewebsites.net/#!/create/search]]>
+            </line>
+            <line>
+              <![CDATA[The test browser is :- chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="init" is-config="true" duration-ms="0" started-at="2019-05-31T12:45:15Z" finished-at="2019-05-31T12:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="TestStep01_CreateSearchRide()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="TestStep01_CreateSearchRide" duration-ms="3180" started-at="2019-05-31T12:45:15Z" finished-at="2019-05-31T12:45:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[ACTIONS]: Able to click on the Create Own Destination Link.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep01_CreateSearchRide -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2019-05-31T12:45:15Z" finished-at="2019-05-31T12:45:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep01_CreateSearchRide()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP01_CREATESEARCHRIDE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="TestStep02_SelectRoute()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="TestStep02_SelectRoute" duration-ms="28248" started-at="2019-05-31T12:45:18Z" finished-at="2019-05-31T12:45:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO]: Able to enter the text using action class. Linkedin]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to enter the text using action class.  ]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to enter the source information. Linkedin]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[ACTION]: Able to click add rally point link.]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to enter the new source point. Test]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to enter the text using action class. Facebook]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to enter the text using action class.  ]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to enter the destination information. Facebook]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[ACTION]: Able to click on the next add time button.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep02_SelectRoute -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2019-05-31T12:45:18Z" finished-at="2019-05-31T12:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep02_SelectRoute()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP02_SELECTROUTE *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-31T12:45:18Z" finished-at="2019-05-31T12:45:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep01_CreateSearchRide status=SUCCESS method=RallyBus_TC01_CreateOwnRide.TestStep01_CreateSearchRide()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402] output=[Action]: clicked on element given]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep01_CreateSearchRide()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-05-31T12:45:46Z" finished-at="2019-05-31T12:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep02_SelectRoute status=SUCCESS method=RallyBus_TC01_CreateOwnRide.TestStep02_SelectRoute()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402] output=[INFO]: Able to enter the text using action class. Linkedin]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep02_SelectRoute()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="TestStep03_TripTiming()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="TestStep03_TripTiming" duration-ms="29435" started-at="2019-05-31T12:45:46Z" finished-at="2019-05-31T12:46:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the value from outbound depart/arrive dropdown. Depart On]]>
+            </line>
+            <line>
+              <![CDATA[[ACTION]: Able to click on outbound date field.]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the year. 2019]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the month. May]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the date. 31]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the hour. 10]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the minute. 30]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the Period. AM]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the value from return depart/arrive dropdown. Depart On]]>
+            </line>
+            <line>
+              <![CDATA[[ACTION]: Able to click on return date field.]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the year. 2019]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the month. May]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the date. 31]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the hour. 10]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the minute. 45]]>
+            </line>
+            <line>
+              <![CDATA[[INFO]: Able to select the Period. PM]]>
+            </line>
+            <line>
+              <![CDATA[[Action]: clicked on element given]]>
+            </line>
+            <line>
+              <![CDATA[[ACTION]: Able to click on the add contact info.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestStep03_TripTiming -->
+        <test-method status="PASS" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="handleTestMethodName" is-config="true" duration-ms="0" started-at="2019-05-31T12:45:46Z" finished-at="2019-05-31T12:45:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep03_TripTiming()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+            <line>
+              <![CDATA[***** STARTING TEST STEP:- TESTSTEP03_TRIPTIMING *****]]>
+            </line>
+            <line>
+              <![CDATA[ ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-05-31T12:46:16Z" finished-at="2019-05-31T12:46:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestStep03_TripTiming status=SUCCESS method=RallyBus_TC01_CreateOwnRide.TestStep03_TripTiming()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402] output=[Action]: clicked on element given]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep03_TripTiming()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="close_Test_Session()[pri:0, instance:com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402]" name="close_Test_Session" is-config="true" duration-ms="602" started-at="2019-05-31T12:46:16Z" finished-at="2019-05-31T12:46:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Test_Session -->
+      </class> <!-- com.rally.automation.tests.RallyBus_TC01_CreateOwnRide -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

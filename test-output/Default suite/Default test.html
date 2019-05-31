@@ -1,0 +1,151 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri May 31 12:45:08 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>68 seconds (68248 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep01_CreateSearchRide()'><b>TestStep01_CreateSearchRide</b><br>Test class: com.rally.automation.tests.RallyBus_TC01_CreateOwnRide<br/>
+<a href="#Output-398457879" onClick='toggleBox("Output-398457879", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-398457879" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-398457879">
+[Action]: clicked on element given<br/>
+[ACTIONS]: Able to click on the Create Own Destination Link.<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402</td></tr>
+<tr>
+<td title='com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep02_SelectRoute()'><b>TestStep02_SelectRoute</b><br>Test class: com.rally.automation.tests.RallyBus_TC01_CreateOwnRide<br/>
+<a href="#Output-944140566" onClick='toggleBox("Output-944140566", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-944140566" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-944140566">
+[INFO]: Able to enter the text using action class. Linkedin<br/>
+[INFO]: Able to enter the text using action class.  <br/>
+[INFO]: Able to enter the source information. Linkedin<br/>
+[Action]: clicked on element given<br/>
+[ACTION]: Able to click add rally point link.<br/>
+[INFO]: Able to enter the new source point. Test<br/>
+[Action]: clicked on element given<br/>
+[INFO]: Able to enter the text using action class. Facebook<br/>
+[INFO]: Able to enter the text using action class.  <br/>
+[INFO]: Able to enter the destination information. Facebook<br/>
+[Action]: clicked on element given<br/>
+[Action]: clicked on element given<br/>
+[ACTION]: Able to click on the next add time button.<br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402</td></tr>
+<tr>
+<td title='com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep03_TripTiming()'><b>TestStep03_TripTiming</b><br>Test class: com.rally.automation.tests.RallyBus_TC01_CreateOwnRide<br/>
+<a href="#Output-1626343059" onClick='toggleBox("Output-1626343059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1626343059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1626343059">
+[Action]: clicked on element given<br/>
+[INFO]: Able to select the value from outbound depart/arrive dropdown. Depart On<br/>
+[ACTION]: Able to click on outbound date field.<br/>
+[Action]: clicked on element given<br/>
+[INFO]: Able to select the year. 2019<br/>
+[INFO]: Able to select the month. May<br/>
+[INFO]: Able to select the date. 31<br/>
+[Action]: clicked on element given<br/>
+[INFO]: Able to select the hour. 10<br/>
+[INFO]: Able to select the minute. 30<br/>
+[INFO]: Able to select the Period. AM<br/>
+[Action]: clicked on element given<br/>
+[INFO]: Able to select the value from return depart/arrive dropdown. Depart On<br/>
+[ACTION]: Able to click on return date field.<br/>
+[Action]: clicked on element given<br/>
+[INFO]: Able to select the year. 2019<br/>
+[INFO]: Able to select the month. May<br/>
+[INFO]: Able to select the date. 31<br/>
+[Action]: clicked on element given<br/>
+[INFO]: Able to select the hour. 10<br/>
+[INFO]: Able to select the minute. 45<br/>
+[INFO]: Able to select the Period. PM<br/>
+[Action]: clicked on element given<br/>
+[ACTION]: Able to click on the add contact info.<br/>
+</div>
+</td>
+<td></td>
+<td>29</td>
+<td>com.rally.automation.tests.RallyBus_TC01_CreateOwnRide@675d3402</td></tr>
+</table><p>
+</body>
+</html>

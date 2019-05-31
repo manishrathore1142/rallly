@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\RNF-Administrator\AppData\Local\Temp\testng-eclipse-1556570702\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">3 methods,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.rally.automation.tests.RallyBus_TC01_CreateOwnRide" hash-for-method="TestStep01_CreateSearchRide">TestStep01_CreateSearchRide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.rally.automation.tests.RallyBus_TC01_CreateOwnRide" hash-for-method="TestStep02_SelectRoute">TestStep02_SelectRoute</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.rally.automation.tests.RallyBus_TC01_CreateOwnRide" hash-for-method="TestStep03_TripTiming">TestStep03_TripTiming</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.rally.automation.tests.RallyBus_TC01_CreateOwnRide</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep01_CreateSearchRide">
+                  </a> <!-- TestStep01_CreateSearchRide -->
+                  <span class="method-name">TestStep01_CreateSearchRide</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep02_SelectRoute">
+                  </a> <!-- TestStep02_SelectRoute -->
+                  <span class="method-name">TestStep02_SelectRoute</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestStep03_TripTiming">
+                  </a> <!-- TestStep03_TripTiming -->
+                  <span class="method-name">TestStep03_TripTiming</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\RNF-Administrator\AppData\Local\Temp\testng-eclipse-1556570702\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.rally.automation.tests.RallyBus_TC01_CreateOwnRide&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(3);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestStep03_TripTiming')
+data.setCell(0, 2, 'com.rally.automation.tests.RallyBus_TC01_CreateOwnRide')
+data.setCell(0, 3, 29435);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestStep02_SelectRoute')
+data.setCell(1, 2, 'com.rally.automation.tests.RallyBus_TC01_CreateOwnRide')
+data.setCell(1, 3, 28248);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestStep01_CreateSearchRide')
+data.setCell(2, 2, 'com.rally.automation.tests.RallyBus_TC01_CreateOwnRide')
+data.setCell(2, 3, 3180);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestStep02_SelectRoute</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO]: Able to enter the text using action class. Linkedin</span>
+                <span class="reporter-method-output">[INFO]: Able to enter the text using action class.  </span>
+                <span class="reporter-method-output">[INFO]: Able to enter the source information. Linkedin</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[ACTION]: Able to click add rally point link.</span>
+                <span class="reporter-method-output">[INFO]: Able to enter the new source point. Test</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to enter the text using action class. Facebook</span>
+                <span class="reporter-method-output">[INFO]: Able to enter the text using action class.  </span>
+                <span class="reporter-method-output">[INFO]: Able to enter the destination information. Facebook</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[ACTION]: Able to click on the next add time button.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestStep03_TripTiming</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to select the value from outbound depart/arrive dropdown. Depart On</span>
+                <span class="reporter-method-output">[ACTION]: Able to click on outbound date field.</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to select the year. 2019</span>
+                <span class="reporter-method-output">[INFO]: Able to select the month. May</span>
+                <span class="reporter-method-output">[INFO]: Able to select the date. 31</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to select the hour. 10</span>
+                <span class="reporter-method-output">[INFO]: Able to select the minute. 30</span>
+                <span class="reporter-method-output">[INFO]: Able to select the Period. AM</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to select the value from return depart/arrive dropdown. Depart On</span>
+                <span class="reporter-method-output">[ACTION]: Able to click on return date field.</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to select the year. 2019</span>
+                <span class="reporter-method-output">[INFO]: Able to select the month. May</span>
+                <span class="reporter-method-output">[INFO]: Able to select the date. 31</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[INFO]: Able to select the hour. 10</span>
+                <span class="reporter-method-output">[INFO]: Able to select the minute. 45</span>
+                <span class="reporter-method-output">[INFO]: Able to select the Period. PM</span>
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[ACTION]: Able to click on the add contact info.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TestStep01_CreateSearchRide</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Action]: clicked on element given</span>
+                <span class="reporter-method-output">[ACTIONS]: Able to click on the Create Own Destination Link.</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.rally.automation.tests.RallyBus_TC01_CreateOwnRide</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeMethod</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">init</span>
+                <span class="method-start">6767 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep01_CreateSearchRide())</span>
+                <span class="method-start">6772 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestStep01_CreateSearchRide</span>
+                <span class="method-start">6772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestStep01_CreateSearchRide status=SUCCESS method=RallyBus_TC01_CreateOwnRide.TestS...)</span>
+                <span class="method-start">9953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep02_SelectRoute())</span>
+                <span class="method-start">9953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestStep02_SelectRoute</span>
+                <span class="method-start">9953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestStep02_SelectRoute status=SUCCESS method=RallyBus_TC01_CreateOwnRide.TestStep02...)</span>
+                <span class="method-start">38202 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">handleTestMethodName(public void com.rally.automation.tests.RallyBus_TC01_CreateOwnRide.TestStep03_TripTiming())</span>
+                <span class="method-start">38202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestStep03_TripTiming</span>
+                <span class="method-start">38202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=TestStep03_TripTiming status=SUCCESS method=RallyBus_TC01_CreateOwnRide.TestStep03_...)</span>
+                <span class="method-start">67639 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">close_Test_Session</span>
+                <span class="method-start">67640 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
